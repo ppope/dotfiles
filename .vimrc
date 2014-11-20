@@ -1,10 +1,10 @@
 
 " Vundle specifications
-set nocompatible              " be iMproved, required
+ set nocompatible              " be iMproved, required
 filetype off                  " required
 
 " Powerline 
-set rtp+=/home/phil/bin/powerline/powerline/bindings/vim
+" set rtp+=/home/phil/bin/powerline/powerline/bindings/vim
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -87,7 +87,7 @@ syntax on
 
 " Solarized color scheme
 syntax enable
-set t_Co=16
+set t_Co=256
 set background=dark
 let g:solarized_termcolors=16
 colorscheme solarized
